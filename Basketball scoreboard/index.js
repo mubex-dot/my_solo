@@ -37,18 +37,22 @@ function add3away() {
     awayScore.textContent = countaway
 }
 
+
+// minus points
+function minus1home() {
+    counthome -= 1
+    homeScore.textContent = counthome
+}
+function minus1away() {
+    countaway -= 1
+    awayScore.textContent -= 1
+}
+
 // reset button
 function reset() {
     homeScore.textContent = 0
     awayScore.textContent = 0
+    countaway = 0
+    counthome = 0
 }
-
-// minus points
-function minus1home() {
-    homeScore.textContent -= 1
-}
-function minus1away() {
-    awayScore.textContent -= 1
-}
-
 
