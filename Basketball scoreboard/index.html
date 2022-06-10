@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Basketball counter</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://www.fontzip.com/storage/2018/04/07/cursed-timer-ulil/webfonts/CursedTimerULiL.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div class="column">
+        <h3 class="team">HOME</h3>
+        <h2 id="home-score">0</h2>
+        <div id="home-points">
+          <button onclick="add1home()">+1</button>
+          <button onclick="add2home()">+2</button>
+          <button onclick="add3home()">+3</button>
+        </div>
+        <button class="minuspoint" onclick="minus1home()">-1</button>
+      </div>
+      <button class="reset" onclick="reset()">RESET</button>
+      <div>
+        <h3 class="team">GUEST</h3>
+        <h2 id="away-score">0</h2>
+        <div id="away-points">
+          <button onclick="add1away()">+1</button>
+          <button onclick="add2away()">+2</button>
+          <button onclick="add3away()">+3</button>
+        </div>
+        <button class="minuspoint" onclick="minus1away()">-1</button>
+      </div>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
