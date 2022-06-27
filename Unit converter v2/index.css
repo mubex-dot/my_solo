@@ -53,5 +53,11 @@ button {
     border-radius: 4px;
     padding: 8px;
 }
-
+h3 {
+    color: #CCC1FF;
+}
+p {
+    color: #FFFFFF;
+    font-weight: lighter;
+}
 
